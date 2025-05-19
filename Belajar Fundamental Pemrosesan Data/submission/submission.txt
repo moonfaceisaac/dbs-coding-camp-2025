@@ -1,0 +1,13 @@
+Untuk menjalankan project:
+Terminal : python main.py
+
+
+Untuk menjalankan seluruh unit test pada folder test
+1. Terminal : cd tests (maju ke folder ./tests)
+2. Terminal : python -m unittest discover
+
+untuk menjalankan test coverage pada folder test
+1. Terminal : cd tests (maju ke folder ./tests. Jika sudah berada di folder test, ini tidak perlu dijalankan)
+2. Terminal : coverage run -m unittest discover 
+3. Terminal : coverage report -m (setelah coverage selesai dijalankan, command ini dijalankan untuk mengecek persentasi coverage)
+
